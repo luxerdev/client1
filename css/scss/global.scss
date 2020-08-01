@@ -6,11 +6,16 @@
   font-family: SF-Pro-Regular;
   src: url(fonts/SF_pro_Regular.ttf);
 }
+@font-face {
+  font-family: SF-Pro-Bold;
+  src: url(fonts/SF_pro_Bold.ttf);
+}
 
 
 *{
 	color: black;
 	box-sizing: border-box;
+	font-family: "SF-Pro-Regular";
 }
 a{
 	text-decoration: none;
@@ -21,7 +26,7 @@ a{
 h1,h2{
 	font-size: 3.125rem;
 	line-height: 1.2;
-	font-family: "SF-Pro-Regular";
+	font-family: "SF-Pro-Bold";
 	@media only screen and (max-width: 1023px){
 		font-size: 2.625rem;
 	}
@@ -37,7 +42,6 @@ h1,h2{
 p{
 	font-size: 1.25rem;
 	line-height: 1.5;
-	font-family: "SF-Pro-Regular";
 	@media only screen and (max-width: 1023px){
 		font-size: 1.125rem;
 	}
