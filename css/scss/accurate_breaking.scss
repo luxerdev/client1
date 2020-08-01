@@ -1,0 +1,102 @@
+/* ==================================================
+===> Accurate Breaking
+================================================== */
+.accurate-breaking{
+		padding: 10%;
+		@media only screen and (max-width: 1023px){
+		}
+		@media only screen and (max-width: 767px){
+			flex-direction: column;
+		}
+		@media only screen and (max-width: 480px){
+			flex-direction: column;
+		}
+		
+		
+
+		.accurate-breaking__banner{
+			max-width: 18.5rem;
+			@media only screen and (max-width: 1023px){
+				max-width: 13.125rem;
+			}
+			@media only screen and (max-width: 767px){
+				width: 50%;
+			}
+			@media only screen and (max-width: 480px){
+				width: 40%;
+			}
+			
+		}
+	.accurate-breaking__content{
+		width: 60%;
+		@media only screen and (max-width: 767px){
+			width: 100%;
+			margin-top: 40px;
+			text-align: center;
+		}
+		@media only screen and (max-width: 480px){
+			width: 100%;
+			text-align: center;
+		}
+		
+
+		h2 + p{
+			margin-top: 20px;
+		}
+		.left{
+			margin-top: 50px;
+			@media only screen and (max-width: 767px){
+				margin-top: 50px;
+			}
+			@media only screen and (max-width: 480px){
+				margin-top: 40px;
+			}
+			
+		}
+		.right{
+			@media only screen and (max-width: 767px){
+				margin-top: 30px;
+			}
+			@media only screen and (max-width: 480px){
+				margin-top: 10px;
+			}
+			
+		}
+		
+		p{
+			@media only screen and (max-width: 767px){
+				width: 100%;
+			}
+			@media only screen and (max-width: 480px){
+				width: 100%;
+			}
+			
+		}
+		.left, .right{
+			display: inline-flex;
+			width: 43%;
+
+			@media only screen and (max-width: 480px){
+				width: 60%;
+			}
+
+			span{
+				display: block;
+				width: 100%;
+				text-align: center;
+				font-size: 60px;
+				color: #2046FC;
+				@media only screen and (max-width: 767px){
+					font-size: 40px;
+				}
+				@media only screen and (max-width: 480px){
+					font-size: 30px;
+				}
+			}
+			p{
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+}

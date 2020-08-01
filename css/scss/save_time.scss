@@ -1,0 +1,63 @@
+/* ==================================================
+===> Save Time
+================================================== */
+
+.save-time{
+	padding: 10%;
+	@media only screen and (max-width: 1023px){
+		// height: 500px;
+	}
+	@media only screen and (max-width: 767px){
+		flex-direction: column;
+	}
+	@media only screen and (max-width: 480px){
+		flex-direction: column;
+	}
+	
+	
+	.save-time__banner{
+		max-width: 534px;
+			@media only screen and (max-width: 1200px){
+				width: 50%;
+			}
+			@media only screen and (max-width: 1023px){
+				max-width: 380px;
+			}
+			@media only screen and (max-width: 767px){
+				width: 60%;
+			}
+			@media only screen and (max-width: 480px){
+				width: 60%;
+			}
+			
+	}
+	.save-time__content{
+		width: 37%;
+		@media only screen and (max-width: 1023px){
+			padding: 0 0 0 4%;
+		}
+		@media only screen and (max-width: 767px){
+			width: 100%;
+			margin-top: 40px;
+			text-align: center;
+		}
+		@media only screen and (max-width: 480px){
+			width: 100%;
+			text-align: center;
+		}
+		
+		h1,p{
+			width: 100%;
+			@media only screen and (max-width: 767px){
+				width: 100%;
+			}
+			@media only screen and (max-width: 480px){
+				width: 100%;
+			}
+			
+		}
+	}
+	img{
+		max-width: 33.25rem;
+	}
+}

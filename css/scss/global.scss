@@ -1,0 +1,117 @@
+/* ==================================================
+===> Global
+================================================== */
+/* Fonts */
+@font-face {
+  font-family: SF-Pro-Regular;
+  src: url(fonts/SF_pro_Regular.ttf);
+}
+
+
+*{
+	color: black;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-family: "SF-Pro-Regular";
+}
+
+h1,h2{
+	font-size: 3.125rem;
+	line-height: 1.2;
+	font-family: "SF-Pro-Regular";
+	@media only screen and (max-width: 1023px){
+		font-size: 2.625rem;
+	}
+	@media only screen and (max-width: 767px){
+		font-size: 2.1875rem;
+		text-align: center;
+	}
+	@media only screen and (max-width: 480px){
+		font-size: 1.875rem;
+		text-align: center;
+	}
+}
+p{
+	font-size: 1.25rem;
+	line-height: 1.5;
+	font-family: "SF-Pro-Regular";
+	@media only screen and (max-width: 1023px){
+		font-size: 1.125rem;
+	}
+	@media only screen and (max-width: 767px){
+		font-size: 1.0625rem;
+		text-align: center;
+	}
+	@media only screen and (max-width: 480px){
+		font-size: 0.9375rem;
+		text-align: center;
+	}
+}
+
+.section-content{
+	width: 40%;
+}
+.padding{
+	padding: 0 11%;
+	@media only screen and (max-width: 767px){
+		padding: 0 9%;
+	}
+}
+.section{
+	margin-top: 4rem;
+	@media only screen and (max-width: 767px){
+		margin-top: 3rem;
+	}
+	
+}
+.cta{
+	color: white;
+	width: 10rem;
+	background: #2046FC;
+	border: 3px solid #2046FC;
+	height: 2.5rem;
+	transition: background-color 300ms ease, color 300ms ease;
+	@media only screen and (max-width: 767px){
+		width: 8.125rem;
+	}
+	@media only screen and (max-width: 480px){
+		width: 100px;
+	}
+	
+}
+.cta:hover{
+	background-color: transparent;
+	color: black;
+}
+.section-banner{
+	max-width: 100%;
+}
+.content-common{
+
+	h1,p{
+		width: 80%;
+	}
+	h1 + p, p + button{
+		margin-top: 2.1875rem;
+		@media only screen and (max-width: 1023px){
+			margin-top: 1.5625rem;
+		}
+		@media only screen and (max-width: 767px){
+			margin-top: 1.25rem;
+		}
+	}
+}
+.email-box{
+			width: 50%;
+			border-top: 1px;
+			border-right: 0px;
+			border-bottom: 1px;
+			border-left: 1px;
+			border: 1px solid #EAE9F2;
+			border-right-color: transparent;
+			height: 40px;
+			padding-left: 15px;
+		}

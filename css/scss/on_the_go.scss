@@ -1,0 +1,63 @@
+/* ==================================================
+===> On The Go
+================================================== */
+
+section.manage{
+	padding: 10%;
+	@media only screen and (max-width: 1023px){
+		// height: 500px;
+	}
+	@media only screen and (max-width: 767px){
+		flex-direction: column;
+	}
+	@media only screen and (max-width: 480px){
+		flex-direction: column;
+	}
+	
+	.manage__banner{
+		max-width: 501px;
+		@media only screen and (max-width: 1023px){
+			max-width: 355px;
+		}
+		@media only screen and (max-width: 767px){
+			width: 60%;
+			order: 1;
+		}
+		@media only screen and (max-width: 480px){
+			width: 60%;
+			order: 1;
+		}
+		
+	}
+	.manage__content{
+		width: 50%;
+		@media only screen and (max-width: 767px){
+			width: 100%;
+			margin-top: 40px;
+			order: 2;
+			text-align: center;
+		}
+		@media only screen and (max-width: 480px){
+			width: 100%;
+			order: 2;
+			text-align: center;
+		}
+		
+		h1,p{
+			@media only screen and (max-width: 767px){
+				width: 100%;
+			}
+			@media only screen and (max-width: 480px){
+				width: 100%;
+			}
+			
+		}
+	}
+	img{
+		order: 2;
+		max-width: 31.25rem;
+	}
+	div{
+		order: 1;
+	}
+}

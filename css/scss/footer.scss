@@ -1,0 +1,124 @@
+/* ==================================================
+===> Footer
+================================================== */
+
+footer.main-footer{
+	// height: 400px;
+	padding: 10%;
+	@media only screen and (max-width: 1023px){
+		// height: 300px;
+	}
+	@media only screen and (max-width: 767px){
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+	@media only screen and (max-width: 480px){
+		flex-wrap: wrap;
+		// height: 200px;
+	}
+	.left,.right{
+		height: 100%;
+	}
+	.left{
+		width: 25%;
+		@media only screen and (max-width: 767px){
+			width: 100%;
+		}
+		@media only screen and (max-width: 480px){
+			width: 100%;
+			height: 150px;
+			justify-content: space-evenly;
+		}
+		
+		.social-links{
+
+			i{
+				font-size: 20px;
+				width: 30px;
+				height: 30px;
+				border-radius: 100%;
+				background-color: #696871;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: white;
+			}
+			a + a{
+				margin-left: 5px;
+			}
+		}
+	}
+	.right{
+		width: 69%;
+		padding: 0 3% 0 0;
+		@media only screen and (max-width: 480px){
+			width: 100%;
+			padding: 0;
+		}
+	}
+
+	ul{
+		height: 100%;
+
+		li + li{
+			margin-top: 15px;
+		}
+	}
+	#footer-logo{
+		margin-bottom: 40px;
+		@media only screen and (max-width: 767px){
+			width: 125px;
+		}
+		@media only screen and (max-width: 480px){
+			margin-bottom: 0;
+		}
+		
+	}
+	.footer-nav{
+		@media only screen and (max-width: 767px){
+			width: 100%;
+			flex-wrap: wrap;
+		}
+		@media only screen and (max-width: 480px){
+			margin-top: 25px;
+		}
+		
+		ul{
+
+			@media only screen and (max-width: 767px){
+				width: 49%;
+				justify-content: flex-start;
+				align-items: center;
+				margin-top: 50px;
+			}
+			@media only screen and (max-width: 480px){
+				width: 100%;
+			}
+			.head{
+				margin-bottom: 15px;
+				@media only screen and (max-width: 767px){
+					margin-bottom: 12px;
+				}
+			}
+			li + li{
+				margin-left: 10px;
+				@media only screen and (max-width: 767px){
+					margin-top: 7px;
+				}
+			}
+			*{
+				color: #19191B;
+			}
+			a:hover{
+				color: #2046FC;
+				transition:color 300ms ease, font-size 300ms ease;
+				font-size: 105%;
+			}
+		}
+		.number{
+			color: #2046FC;
+			font-weight: bolder;
+		}
+
+	}
+}

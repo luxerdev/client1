@@ -1,0 +1,94 @@
+/* ==================================================
+===> Common
+================================================== */
+
+/* flex-value-value-value
+1st parameter = display type
+2nd parameter = justify content
+3rd parameter = align item
+4th parameter = flex direction */
+
+/* Row Direction */
+.flex-center-center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex-center-start{
+	display: flex;
+	justify-content: center;
+	align-items: start;
+}
+.flex-start-center{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+.flex-start-start{
+	display: flex;
+	justify-content: start;
+	align-items: start;
+}
+.flex-end-start{
+	display: flex;
+	justify-content: flex-end;
+	align-items: start;
+}
+.flex-end-center{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.flex-space_between-center{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-space_between-start{
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.flex-space_evenly-center{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+/* Column Direction */
+.flex-center-start-col{
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	flex-direction: column;
+}
+.flex-center-end-col{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: column;
+}
+.flex-center-center-col{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.flex-space_between-center-col{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;	
+}
+.flex-space_evenly-center-col{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;	
+}
+.flex-start-start-col{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;	
+}

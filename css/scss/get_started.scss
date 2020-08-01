@@ -1,0 +1,77 @@
+/* ==================================================
+===> Get Started
+================================================== */
+
+section.get-started{
+	padding: 10%;
+	background-color: #0833FF;
+	width: 100% !important;
+	margin-top: 100px;
+	@media only screen and (max-width: 1023px){
+		
+	}
+	@media only screen and (max-width: 767px){
+		flex-direction: column;
+	}
+	@media only screen and (max-width: 480px){
+		flex-direction: column;
+	}
+	
+	
+	.get-started__banner{
+		@media only screen and (max-width: 1200px){
+			width: 55%;
+		}
+		@media only screen and (max-width: 767px){
+			width: 70%;
+			order: 1;
+		}
+		@media only screen and (max-width: 480px){
+			width: 70%;
+			order: 1;
+		}
+		
+	}
+	.get-started__content{
+		width: 50%;
+		@media only screen and (max-width: 767px){
+			width: 100%;
+			order: 2;
+			margin-top: 40px;
+			text-align: center;
+		}
+		@media only screen and (max-width: 480px){
+			width: 100%;
+			order: 2;
+			text-align: center;
+		}
+		
+
+		h1,p{
+				width: 100%;
+			color: white;
+			@media only screen and (max-width: 767px){
+				margin-top: 25px;
+			}
+			@media only screen and (max-width: 480px){
+				margin-top: 25px;
+				width: 100%;
+			}
+			
+		}
+		.email-box{
+			margin-top: 20px;
+			border-radius: 10px;
+			@media only screen and (max-width: 480px){
+				width: 90%;
+			}
+		}
+	}
+	img{
+		order: 2;
+		max-width: 35rem;
+	}
+	div{
+		order: 1;
+	}
+}
